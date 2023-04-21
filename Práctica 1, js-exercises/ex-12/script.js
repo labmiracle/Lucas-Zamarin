@@ -47,7 +47,7 @@ function adivinaElNumConDificultad() {
             return;
     }
 
-    let numSecreto = Math.floor(Math.random() * 10) + 1;
+    let numSecreto = Math.round(Math.random() * 10) + 1;
     let numUsuario;
     let intentos = 0;
 
@@ -75,4 +75,4 @@ function adivinaElNumConDificultad() {
 };
 
 //Descomentar esta llamada a la función si se quiere jugar a la versión con niveles de dificultad:
-//adivinaElNumConDificultad(); 
+adivinaElNumConDificultad(); 
