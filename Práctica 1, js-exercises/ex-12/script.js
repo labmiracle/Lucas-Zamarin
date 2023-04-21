@@ -75,4 +75,4 @@ function adivinaElNumConDificultad() {
 };
 
 //Descomentar esta llamada a la función si se quiere jugar a la versión con niveles de dificultad:
-adivinaElNumConDificultad(); 
+//adivinaElNumConDificultad(); 
