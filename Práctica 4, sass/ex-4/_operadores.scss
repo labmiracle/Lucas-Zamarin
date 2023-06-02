@@ -1,0 +1,17 @@
+// _operadores.scss
+
+$container-width: 200px;
+$container-height: 100px;
+$container-margin: 20px;
+
+.container {
+  width: $container-width;
+  height: $container-height;
+  margin: $container-margin;
+  
+  .child {
+    width: $container-width / 2;
+    height: $container-height * 0.75;
+    margin: $container-margin / 2;
+  }
+}

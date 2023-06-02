@@ -1,0 +1,37 @@
+.container {
+  width: 200px;
+  height: 100px;
+  background-color: #ff0000;
+  padding: 20px;
+}
+.container .box {
+  width: 100px;
+  height: 50px;
+  background-color: #00ff00;
+  margin-top: 10px;
+}
+
+.text-small {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.text-medium {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.text-large {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.container {
+  border: 1px solid #000;
+}
+
+.box {
+  border: 1px solid #000;
+}
+
+/*# sourceMappingURL=ex-5-1.css.map */

@@ -1,0 +1,12 @@
+$days: "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday";
+
+@each $day in $days {
+  .#{$day} {
+    // Estilos para cada día de la semana
+    background-color: lightblue;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+}

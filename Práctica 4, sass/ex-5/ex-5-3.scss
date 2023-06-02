@@ -1,0 +1,31 @@
+$days: "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday";
+
+@function get-day-color($day) {
+  @if $day == "monday" {
+    @return red;
+  } @else if $day == "tuesday" {
+    @return blue;
+  } @else if $day == "wednesday" {
+    @return green;
+  } @else if $day == "thursday" {
+    @return orange;
+  } @else if $day == "friday" {
+    @return purple;
+  } @else if $day == "saturday" {
+    @return yellow;
+  } @else if $day == "sunday" {
+    @return pink;
+  } @else {
+    @return black;
+  }
+}
+
+@each $day in $days {
+  .#{$day} {
+    background-color: get-day-color(#{$day});
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+}

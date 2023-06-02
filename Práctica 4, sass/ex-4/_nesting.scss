@@ -1,0 +1,17 @@
+// _nesting.scss
+
+.container {
+  background-color: #f0f0f0;
+  
+  .title {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .content {
+    padding: 10px;
+    margin-top: 10px;
+  }
+}
+
+  

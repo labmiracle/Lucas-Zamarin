@@ -1,0 +1,9 @@
+@mixin fixed-spacing($margin, $padding) {
+    margin: $margin;
+    padding: $padding;
+  }
+
+  .container {
+    @include fixed-spacing(10px, 20px);
+  }
+  

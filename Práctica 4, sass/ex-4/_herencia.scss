@@ -1,0 +1,18 @@
+// _herencia.scss
+
+%message-box {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.success-message {
+  @extend %message-box;
+  color: green;
+}
+
+.error-message {
+  @extend %message-box;
+  color: red;
+}
+
+  

@@ -1,0 +1,57 @@
+.monday {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.tuesday {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.wednesday {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.thursday {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.friday {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.saturday {
+  background-color: yellow;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.sunday {
+  background-color: pink;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=ex-5-3.css.map */

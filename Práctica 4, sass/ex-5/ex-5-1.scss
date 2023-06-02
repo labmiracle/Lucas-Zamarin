@@ -1,0 +1,47 @@
+// Característica 1: Uso de operadores y funciones matemáticas
+
+$primary-color: #ff0000;
+$secondary-color: #00ff00;
+
+$box-width: 200px;
+$box-height: 100px;
+$box-padding: 20px;
+
+.container {
+  width: $box-width;
+  height: $box-height;
+  background-color: $primary-color;
+  padding: $box-padding;
+  
+  .box {
+    width: $box-width / 2;
+    height: $box-height / 2;
+    background-color: $secondary-color;
+    margin-top: $box-padding / 2;
+  }
+}
+
+// Característica 2: Utilizando interpolación y listas
+
+$font-sizes: (
+  "small": 12px,
+  "medium": 16px,
+  "large": 20px
+);
+
+@each $size, $value in $font-sizes {
+  .text-#{$size} {
+    font-size: $value;
+    margin-bottom: $value / 2;
+  }
+}
+
+// Estilos adicionales
+
+.container {
+  border: 1px solid #000;
+}
+
+.box {
+  border: 1px solid #000;
+}
